@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c478883-8ca3-443f-b702-06fcf9e59644" name="Default Changelist" comment="" />
+    <list default="true" id="3c478883-8ca3-443f-b702-06fcf9e59644" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/card.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/master.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +20,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/src/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -129,9 +142,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/database/product.sql" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -149,6 +165,7 @@
       <workItem from="1601650029457" duration="612000" />
       <workItem from="1601667710144" duration="91000" />
       <workItem from="1601723135488" duration="11219000" />
+      <workItem from="1602090327438" duration="8476000" />
     </task>
     <servers />
   </component>
@@ -164,6 +181,26 @@
       <screen x="0" y="0" width="1366" height="723" />
     </state>
     <state x="391" y="165" width="573" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1601732366130" />
+    <state x="466" y="118" width="424" height="478" key="FileChooserDialogImpl" timestamp="1602094194299">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="466" y="118" width="424" height="478" key="FileChooserDialogImpl/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602094194299" />
+    <state width="906" height="172" key="GridCell.Tab.0.bottom" timestamp="1602094029151">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state width="906" height="172" key="GridCell.Tab.0.bottom/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602094029151" />
+    <state width="906" height="172" key="GridCell.Tab.0.center" timestamp="1602094029151">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state width="906" height="172" key="GridCell.Tab.0.center/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602094029151" />
+    <state width="906" height="172" key="GridCell.Tab.0.left" timestamp="1602094029151">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state width="906" height="172" key="GridCell.Tab.0.left/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602094029151" />
+    <state width="906" height="172" key="GridCell.Tab.0.right" timestamp="1602094029151">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state width="906" height="172" key="GridCell.Tab.0.right/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602094029151" />
     <state x="187" y="0" key="SettingsEditor" timestamp="1601565425820">
       <screen x="0" y="0" width="1366" height="723" />
     </state>
@@ -172,6 +209,10 @@
       <screen x="0" y="0" width="1366" height="723" />
     </state>
     <state x="412" y="97" width="540" height="524" key="StructurePopup/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1601568947789" />
+    <state x="278" y="96" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1602104143348">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="278" y="96" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602104143348" />
     <state x="526" y="136" width="303" height="442" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1601569131240">
       <screen x="0" y="0" width="1366" height="723" />
     </state>
