@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c478883-8ca3-443f-b702-06fcf9e59644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Http/Controllers/CartController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Models/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/migrations/2020_10_07_210700_create_orders_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/migrations/2020_10_07_211156_create_order_product_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/migrations/2020_10_20_131304_update_order_product_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/views/card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/card.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/cart.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,11 +140,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1iH8T3yVjBmWB6lQEhrwfqlM4uA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -165,12 +172,26 @@
       <workItem from="1601650029457" duration="612000" />
       <workItem from="1601667710144" duration="91000" />
       <workItem from="1601723135488" duration="11219000" />
-      <workItem from="1602090327438" duration="8476000" />
+      <workItem from="1602090327438" duration="15665000" />
+      <workItem from="1603193037279" duration="7504000" />
     </task>
+    <task id="LOCAL-00001" summary="DB">
+      <created>1602104157676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602104157676</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB" />
   </component>
   <component name="WindowStateProjectService">
     <state x="278" y="22" width="800" height="671" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601565702625">
@@ -181,26 +202,38 @@
       <screen x="0" y="0" width="1366" height="723" />
     </state>
     <state x="391" y="165" width="573" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1601732366130" />
+    <state x="366" y="100" width="624" height="519" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603193067917">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="366" y="100" width="624" height="519" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1603193067917" />
+    <state x="281" y="0" width="794" height="717" key="CommitChangelistDialog2" timestamp="1602104157358">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="281" y="0" width="794" height="717" key="CommitChangelistDialog2/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602104157358" />
     <state x="466" y="118" width="424" height="478" key="FileChooserDialogImpl" timestamp="1602094194299">
       <screen x="0" y="0" width="1366" height="723" />
     </state>
     <state x="466" y="118" width="424" height="478" key="FileChooserDialogImpl/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602094194299" />
-    <state width="906" height="172" key="GridCell.Tab.0.bottom" timestamp="1602094029151">
+    <state width="906" height="172" key="GridCell.Tab.0.bottom" timestamp="1602105207899">
       <screen x="0" y="0" width="1366" height="723" />
     </state>
-    <state width="906" height="172" key="GridCell.Tab.0.bottom/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602094029151" />
-    <state width="906" height="172" key="GridCell.Tab.0.center" timestamp="1602094029151">
+    <state width="906" height="172" key="GridCell.Tab.0.bottom/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602105207899" />
+    <state width="906" height="172" key="GridCell.Tab.0.center" timestamp="1602105207899">
       <screen x="0" y="0" width="1366" height="723" />
     </state>
-    <state width="906" height="172" key="GridCell.Tab.0.center/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602094029151" />
-    <state width="906" height="172" key="GridCell.Tab.0.left" timestamp="1602094029151">
+    <state width="906" height="172" key="GridCell.Tab.0.center/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602105207899" />
+    <state width="906" height="172" key="GridCell.Tab.0.left" timestamp="1602105207898">
       <screen x="0" y="0" width="1366" height="723" />
     </state>
-    <state width="906" height="172" key="GridCell.Tab.0.left/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602094029151" />
-    <state width="906" height="172" key="GridCell.Tab.0.right" timestamp="1602094029151">
+    <state width="906" height="172" key="GridCell.Tab.0.left/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602105207898" />
+    <state width="906" height="172" key="GridCell.Tab.0.right" timestamp="1602105207899">
       <screen x="0" y="0" width="1366" height="723" />
     </state>
-    <state width="906" height="172" key="GridCell.Tab.0.right/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602094029151" />
+    <state width="906" height="172" key="GridCell.Tab.0.right/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602105207899" />
+    <state x="479" y="67" width="397" height="585" key="RollbackChangesDialog" timestamp="1603201531923">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="479" y="67" width="397" height="585" key="RollbackChangesDialog/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1603201531923" />
     <state x="187" y="0" key="SettingsEditor" timestamp="1601565425820">
       <screen x="0" y="0" width="1366" height="723" />
     </state>
@@ -209,10 +242,10 @@
       <screen x="0" y="0" width="1366" height="723" />
     </state>
     <state x="412" y="97" width="540" height="524" key="StructurePopup/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1601568947789" />
-    <state x="278" y="96" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1602104143348">
+    <state x="278" y="96" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1602104203183">
       <screen x="0" y="0" width="1366" height="723" />
     </state>
-    <state x="278" y="96" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602104143348" />
+    <state x="278" y="96" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.723/0.0.1366.723@0.0.1366.723" timestamp="1602104203183" />
     <state x="526" y="136" width="303" height="442" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1601569131240">
       <screen x="0" y="0" width="1366" height="723" />
     </state>
